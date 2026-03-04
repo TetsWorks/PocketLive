@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome da trilha (opcional)">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/trackNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Você poderá escolher um arquivo de áudio (.mp3, .wav, .ogg) do seu dispositivo."
+        android:textColor="#888888"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
